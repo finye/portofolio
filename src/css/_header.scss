@@ -1,0 +1,49 @@
+.linker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  //margin: 0 auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  //max-width: 750px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  //margin-left: 55px;
+}
+
+.inner .icon {
+  font-size: 3.5em !important;
+  color: #333 !important;
+  cursor: pointer;
+  transition: color 1s ease-out;
+  margin-left: 0.1em !important;
+  //text-align: center;
+
+  justify-content: center;
+}
+
+.inner .icon:hover {
+  color: #faebd7 !important;
+  //font-size: 4.5em !important;
+}
+
+.active {
+  background-color: #ffe259 !important;
+  border-radius: 50%;
+  width: 4.75em;
+  height: 4.75em;
+}
+
+.active .icon:hover {
+  color: black !important;
+}
+
